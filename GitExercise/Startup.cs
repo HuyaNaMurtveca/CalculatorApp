@@ -6,6 +6,13 @@ namespace GitExercise
     {
         public static void Main()
         {
+            private static bool CheckCredentials()
+            {
+                Console.Write("Enter password to gain access: ");
+                string password = Console.ReadLine();
+                Console.Clear();
+                return password == Password;
+            }
             Console.WriteLine("Console Calculator App");
             Console.WriteLine(new string('-', 15));
 
